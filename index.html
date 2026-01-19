@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema de Turnos</title>
+</head>
+<body>
+    <h1>Turnos</h1>
+    
+  <button id="btnCargar">Cargar turnos</button>
+  <div class="container">
+  <form id="formTurno">
+    <label>
+      Nombre:
+      <input type="text" id="nombre">
+    </label>
+    <br>
+
+    <label>
+      Fecha:
+      <input type="date" id="fecha">
+    </label>
+    <br>
+
+    <label>
+      Hora:
+      <input type="time"  id="hora">
+    </label>
+    <br>
+
+    <label>
+      duracion:
+      <input type="number" id="duracion">
+    </label>
+    <br><br>
+
+    <button type="submit">Crear Turno</button>
+  </form>
+  <p id="mensaje"></p>
+
+  <ul id="listaTurnos"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
